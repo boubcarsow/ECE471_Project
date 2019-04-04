@@ -1,0 +1,258 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4331 ]
+[d frameptr 4065 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"11 C:\Users\bsow\OneDrive\ECE 471 SP19\Project\Project.X\LCD_Module.c
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+"33
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"42
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+"48
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+"69
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"88
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+"104
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+"18 C:\Users\bsow\OneDrive\ECE 471 SP19\Project\Project.X\project_main.c
+[v _main main `(i  1 e 2 0 ]
+"12 C:\Users\bsow\OneDrive\ECE 471 SP19\Project\Project.X\SCI_Module.c
+[v _setting_registers setting_registers `(v  1 e 1 0 ]
+"29
+[v _transmit_character transmit_character `(v  1 e 1 0 ]
+[s S68 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"1077 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4331.h
+[s S108 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 AN4 1 0 :1:4 
+`uc 1 AN5 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+`uc 1 OSC1 1 0 :1:7 
+]
+[s S117 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+`uc 1 CLKO 1 0 :1:6 
+`uc 1 CLKI 1 0 :1:7 
+]
+[s S125 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S129 . 1 `S68 1 . 1 0 `S108 1 . 1 0 `S117 1 . 1 0 `S125 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES129  1 e 1 @3968 ]
+[s S253 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"1555
+[s S262 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S265 . 1 `S253 1 . 1 0 `S262 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES265  1 e 1 @3971 ]
+[s S337 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"1779
+[s S346 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S355 . 1 `S337 1 . 1 0 `S346 1 . 1 0 ]
+[v _LATAbits LATAbits `VES355  1 e 1 @3977 ]
+[s S59 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"2305
+[u S77 . 1 `S59 1 . 1 0 `S68 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES77  1 e 1 @3986 ]
+[s S191 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"2749
+[s S200 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S209 . 1 `S191 1 . 1 0 `S200 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES209  1 e 1 @3988 ]
+"2939
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4839
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"4863
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"7915
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"8863
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"8941
+[v _RX9 RX9 `VEb  1 e 0 @32094 ]
+"9055
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"9145
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"9472
+[v _TX9 TX9 `VEb  1 e 0 @32102 ]
+"9508
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"9514
+[v _TXIE TXIE `VEb  1 e 0 @31980 ]
+"9517
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"18 C:\Users\bsow\OneDrive\ECE 471 SP19\Project\Project.X\project_main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"39
+} 0
+"29 C:\Users\bsow\OneDrive\ECE 471 SP19\Project\Project.X\SCI_Module.c
+[v _transmit_character transmit_character `(v  1 e 1 0 ]
+{
+[v transmit_character@out out `uc  1 a 1 wreg ]
+[v transmit_character@out out `uc  1 a 1 wreg ]
+[v transmit_character@out out `uc  1 a 1 0 ]
+"34
+} 0
+"12
+[v _setting_registers setting_registers `(v  1 e 1 0 ]
+{
+"26
+} 0
+"104 C:\Users\bsow\OneDrive\ECE 471 SP19\Project\Project.X\LCD_Module.c
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+{
+"106
+[v Lcd_Write_String@i i `i  1 a 2 8 ]
+"104
+[v Lcd_Write_String@a a `*.32uc  1 p 2 4 ]
+"109
+} 0
+"88
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+{
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"90
+[v Lcd_Write_Char@y y `uc  1 a 1 2 ]
+[v Lcd_Write_Char@temp temp `uc  1 a 1 1 ]
+"88
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"91
+[v Lcd_Write_Char@a a `uc  1 a 1 3 ]
+"102
+} 0
+"48
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"50
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 6 ]
+[v Lcd_Set_Cursor@y y `uc  1 a 1 5 ]
+[v Lcd_Set_Cursor@z z `uc  1 a 1 4 ]
+"48
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v Lcd_Set_Cursor@b b `uc  1 p 1 2 ]
+"51
+[v Lcd_Set_Cursor@a a `uc  1 a 1 3 ]
+"67
+} 0
+"69
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"86
+} 0
+"42
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+{
+"46
+} 0
+"33
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+"35
+[v Lcd_Cmd@a a `uc  1 a 1 1 ]
+"40
+} 0
+"11
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+{
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+"13
+[v Lcd_Port@a a `uc  1 a 1 0 ]
+"32
+} 0
